@@ -16,3 +16,29 @@ Build a scalable system that can detect and recognize multiple faces simultaneou
 | Firebase Realtime Database | Cloud-based real-time attendance storage |
 | NumPy                      | Numerical computations                   |
 | cvzone / other utilities   | Computer vision utilities                |
+
+📊 Workflow
+Capture student images and store them in the dataset folder.
+Generate face encodings using the encoding script.
+Run the main program to start webcam detection.
+Recognized faces are marked present automatically.
+Attendance data is updated in Firebase Realtime Database.
+📷 Example Output
+Face detection with bounding boxes
+Student name displayed after recognition
+Attendance automatically updated in database
+🔮 Future Improvements
+Web dashboard for attendance monitoring
+Integration with mobile attendance applications
+Deploy system on Raspberry Pi or edge devices
+Improve recognition accuracy using deep learning models
+🎓 Learning Outcomes
+Through this project, I gained practical experience in:
+Computer Vision using OpenCV
+Face recognition algorithms
+Cloud database integration with Firebase
+Real-time data processing systems
+Building AI-based automation systems
+📌 Author
+Atharv Abhay Kankal
+B.Tech – Artificial Intelligence & Data Science
